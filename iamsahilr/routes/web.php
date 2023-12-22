@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+//route for the landing page
 Route::get('/', function () {
     return view('frontend.index');
 });
