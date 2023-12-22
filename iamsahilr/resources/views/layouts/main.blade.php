@@ -25,7 +25,7 @@
 <body>
     <div class="container-fluid" style="background-image: url('{{ asset('images/hero-image.jpeg') }}')">
         <div class="main">
-            @include('partials.header');
+            @include('partials.header')
         </div> <!--main closed-->
 
         <div class="main-content">
@@ -34,16 +34,18 @@
     </div>
     
     <div id="about" class="home-about-section">
-        <div class="image" style="background-color:orange">
-    
+        <div class="image">
+            <img src="/images/photo1.png" alt="display picture">
         </div>
 
-        <div class="bio">
+        <div class="bio" data-aos="fade-in" data-aos-duration="1000">
             <h1>Who am I?</h1>
+
             <span class="job-title">Web Designer/Developer</span>
+
             <p>I'm an enthusiastic web developer, fueled by a passion for creating digital experiences that truly resonate. My world revolves around lines of code that I mold into visually captivating and functionally seamless websites. I thrive on the ever-evolving nature of technology, constantly seeking out the latest trends and tools to integrate into my projects.</p>
 
-            <p>I see myself not just as a coder but as a problem-solving architect, always eager to tackle challenges and turn them into opportunities for innovation. Design isn't just an afterthought for me—it's a crucial element woven into every project, ensuring not only flawless functionality but also a visually stunning end product.</p>
+            <p >I see myself not just as a coder but as a problem-solving architect, always eager to tackle challenges and turn them into opportunities for innovation. Design isn't just an afterthought for me, it's a crucial element woven into every project, ensuring not only flawless functionality but also a visually stunning end product.</p>
         </div>
     </div>
 
