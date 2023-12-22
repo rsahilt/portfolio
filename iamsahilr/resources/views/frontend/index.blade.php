@@ -2,7 +2,7 @@
 @section('contentmain')
     <div class="typing-effect">
         <h1>
-            <a href="" class="typewrite" data-period="2000" data-type='[ "Hi, I am Sahil Rajbhandari.", "I am a Developer."]'>
+            <a href="" class="typewrite" data-period="2000" data-type='[ "Hi, I am Sahil Rajbhandari."]'>
                 <span class="wrap"></span>
             </a>
         </h1>

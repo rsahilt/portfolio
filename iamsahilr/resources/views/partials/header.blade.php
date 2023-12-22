@@ -1,5 +1,5 @@
 <div class="logo">
-    <h1>IAMSAHILR</h1>
+    <h1>IAMSAHILR.</h1>
 </div> <!--logo closed-->
 
 <nav class="navbar navbar-expand-lg">

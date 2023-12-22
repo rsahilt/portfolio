@@ -33,8 +33,18 @@
         </div> <!--main-content closed-->
     </div>
     
-    <div id="about" class="home-about-section" style="background-color:blue">
-        @yield('contenthome')
+    <div id="about" class="home-about-section">
+        <div class="image" style="background-color:orange">
+    
+        </div>
+
+        <div class="bio">
+            <h1>Who am I?</h1>
+            <span class="job-title">Web Designer/Developer</span>
+            <p>I'm an enthusiastic web developer, fueled by a passion for creating digital experiences that truly resonate. My world revolves around lines of code that I mold into visually captivating and functionally seamless websites. I thrive on the ever-evolving nature of technology, constantly seeking out the latest trends and tools to integrate into my projects.</p>
+
+            <p>I see myself not just as a coder but as a problem-solving architect, always eager to tackle challenges and turn them into opportunities for innovation. Design isn't just an afterthought for me—it's a crucial element woven into every project, ensuring not only flawless functionality but also a visually stunning end product.</p>
+        </div>
     </div>
 
     <div id="resume" class="home-resume-section" style="background-color:red">
