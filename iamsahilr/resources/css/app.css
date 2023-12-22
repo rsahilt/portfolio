@@ -1,1 +1,33 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
+
+.container-fluid{
+    height: 100vh;
+    background-color: #2a2332;
+    padding-top: 1rem;
+}
+
+.container-fluid .main{
+    display: flex;
+    flex-direction: row;
+}
+.main .logo{
+    width: 30%;
+}
+
+.main .logo h1{
+    font-family: 'Russo One', sans-serif;
+    color: #d8d6da;
+    padding-left: 1rem;
+}
+
+.main nav.navbar{
+    width: 70%;
+}
+
+.main nav .nav-item .nav-link{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 300;
+    padding: 0 1.4rem;
+    font-size: 1.2em;
+    color: #d8d6da;
+}
