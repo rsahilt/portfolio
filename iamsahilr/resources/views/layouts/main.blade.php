@@ -19,6 +19,9 @@
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <!-- @vite('resources/css/app.css') -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
@@ -49,8 +52,47 @@
         </div>
     </div>
 
-    <div id="resume" class="home-resume-section" style="background-color:red">
-        @yield('contentresume')
+    <div id="resume" class="home-resume-section" style="background-color:#e7ebee">
+        <div class="resume-header">
+            <div class="myname">
+                <h1>Sahil Rajbhandari</h1>
+            </div>
+            <div class="address">
+                <p><i class="fa fa-home"></i> &nbsp; 304 - 630 Guelph Street</p>
+                <p><i class="fa fa-phone"></i> &nbsp; +1(204) 952-8407</p>
+                <p><i class="fa fa-envelope"></i> &nbsp; srajbhandari63@gmail.com</p>
+            </div>
+        </div>
+        <div class="resume-content">
+            <div class="cont-left">
+                <ul>
+                    <li class="resume-li">Education</li>
+                    <li class="resume-li">Post Graduate in Web Developement | 2023</li>
+                    <li class="resume-li">The University of Winnipeg</li>
+                    <li class="resume-li">Winnipeg, Manitoba, Canada</li>
+                    <br>
+                    <li class="resume-li">Bachelors' of Science (Honours) Computing | 2019</li>
+                    <li class="resume-li">The University of Northampton</li>
+                    <li class="resume-li">Northampton, United Kingdom</li>
+                </ul>
+
+                <ul>
+                    <li class="resume-li">Key Skills</li>
+                    <li class="resume-li bullets">HTML5</li>
+                    <li class="resume-li bullets">CSS3</li>
+                    <li class="resume-li bullets">JavaScript</li>
+                    <li class="resume-li bullets">PHP</li>
+                    <li class="resume-li bullets">Laravel</li>
+                    <li class="resume-li bullets">MySQL</li>
+                    <li class="resume-li bullets">Git</li>
+                    <li class="resume-li bullets">Wordpress</li>
+                    <li class="resume-li bullets">Bootstrap</li>
+                    <li class="resume-li bullets">Tailwind</li>
+                    <li class="resume-li bullets">SEO</li>
+                </ul>
+            </div>
+            <div class="cont-right"></div>
+        </div>
     </div>
 
 

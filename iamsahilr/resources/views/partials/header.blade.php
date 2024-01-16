@@ -21,6 +21,9 @@
             <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#work">Works</a>
             </li>
+            <li class="nav-item">
+            <a class="nav-link active" aria-current="contact" href="#work">Contact</a>
+            </li>
             
         </ul>
     </div>
