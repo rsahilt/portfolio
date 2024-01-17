@@ -91,7 +91,23 @@
                     <li class="resume-li bullets">SEO</li>
                 </ul>
             </div>
-            <div class="cont-right"></div>
+            <div class="cont-right">
+                <ul>
+                    <li class="resume-li">Professional Summary</li>
+                    <li class="resume-li">
+                        <p>
+                        Proficient in computer science and with a robust technical skill set, I specialize in web development, boasting extensive mastery in PHP, WordPress, JavaScript, HTML5, CSS3, XML and Laravel. My expertise extends to adeptly troubleshooting technical issues, help desk, customer service, service request and ensuring seamless operational efficiency across various platforms. Skillfully managing procedure deveopment, disbursement records and seamlessly integrating advanced technologies such as Laravel, OOP, Tailwind, and Bootstrap, I consistently drive innovation within web development endeavors. I harness my multilingual abilities to facilitate effective communication, fostering collaboration among diverse teams. 
+                        </p>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li class="resume-li">Work Experience</li>
+                    <li class="resume-li">
+                        
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 

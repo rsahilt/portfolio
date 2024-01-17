@@ -169,6 +169,8 @@ span.job-title{
 
 .resume-content{
     height: 85vh;
+    display: flex;
+    flex-direction: row;
 }
 
 .cont-left{
@@ -178,10 +180,14 @@ span.job-title{
     padding-right: 5px;
 }
 
+.cont-right{
+    width: 75%;
+    height: 100%;
+}
+
 .resume-li:first-child{
     padding-top: 20px;
     font-weight: bold;
-    text-decoration: underline;
     font-size: 1.7rem;
 }
 .resume-li{
