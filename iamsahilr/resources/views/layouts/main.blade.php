@@ -159,7 +159,36 @@
 
 
     <div id="work" class="home-work-section" style="background-color:green">
-        @yield('contentabout')
+        <div class="work-container">
+            <div class="prod-container">
+                <a href="https://rsahilt.github.io/spaceshooter/">
+                    <img class="work-img" src="/images/spaceshooter.png" alt="display picture">
+                </a>
+            </div>
+            <div class="prod-container">
+                <a href="https://rsahilt.github.io/timhortons/">
+                    <img class="work-img" src="/images/timhortons.png" alt="display picture">
+                </a>
+            </div>
+            <div class="prod-container">
+                <a href="https://rsahilt.github.io/tognepal/">
+                    <img class="work-img" src="/images/tognepal.png" alt="display picture">
+                </a>
+            </div>
+
+            <div class="prod-container">
+                <a href="https://rsahilt.github.io/iamsahilr/">
+                    <img class="work-img" src="/images/iamsahilr.png" alt="display picture">
+                </a>
+            </div>
+
+            <div class="prod-container">
+                <a href="https://rsahilt.github.io/darkangel/">
+                    <img class="work-img" src="/images/darkangel.png" alt="display picture">
+                </a>
+            </div>
+
+        </div>
     </div>
 
     <!-- script for animation -->
