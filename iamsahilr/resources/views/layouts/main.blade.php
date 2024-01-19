@@ -103,10 +103,56 @@
 
                 <ul>
                     <li class="resume-li">Work Experience</li>
-                    <li class="resume-li">
-                        
-                    </li>
+                    <li class="resume-li">Web Developer, 2019-2022</li>
+                    <li class="resume-li"><em>Crossover Nepal Pvt. Ltd., Nepal</em></li>
                 </ul>
+
+                <div>
+                    <ul id="skills">
+                        <li>
+                            HTML5
+                            <div class="bar_container">
+                            <span class="bar" data-bar='{ "color": "#19f" }'>
+                                <span class="pct">95%</span>
+                            </span>
+                            </div>
+                        </li>
+                        <li>
+                            CSS3
+                            <div class="bar_container">
+                            <span class="bar" data-bar='{ "color": "#27ae60", "delay": 600 }'>
+                                <span class="pct">90%</span>
+                            </span>
+                            </div>
+                        </li>
+                        <li>
+                            JavaScript
+                            <div class="bar_container">
+                            <span class="bar" data-bar='{ "color": "#9b59b6", "delay": 1200 }'>
+                                <span class="pct">80%</span>
+                            </span>
+                            </div>
+                        </li>
+                        
+                        <li>
+                            PHP
+                            <div class="bar_container">
+                            <span class="bar" data-bar='{ "color": "#19f" }'>
+                                <span class="pct">85%</span>
+                            </span>
+                            </div>
+                        </li>
+
+                        <li>
+                            Laravel
+                            <div class="bar_container">
+                            <span class="bar" data-bar='{ "color": "#9b59b6", "delay": 1200 }'>
+                                <span class="pct">80%</span>
+                            </span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>

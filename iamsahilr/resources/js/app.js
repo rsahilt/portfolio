@@ -56,3 +56,36 @@ window.onload = function() {
     css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
     document.body.appendChild(css);
 };
+
+
+
+// SKILLSBAR
+;(function($) {
+    "use strict";
+    
+    $(".bar").each(function() {
+      
+      var $bar = $(this),
+          $pct = $bar.find(".pct"),
+          data = $bar.data("bar");
+      
+      setTimeout(function() {
+        
+        $bar
+          .css("background-color", data.color)
+          .animate({
+            "width": $pct.html()
+        }, data.speed || 2000, function() {
+          
+          $pct.css({
+            "color": data.color,
+            "opacity": 1
+          });
+          
+        });
+        
+      }, data.delay || 0);
+      
+    });
+    
+  })(jQuery);
