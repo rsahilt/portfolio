@@ -26,6 +26,14 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body>
+
+    <div class="sidenav">
+        <a href="#about" style="text-decoration:none"><div class="sidenavdiv"><i class="fa fa-user fa-sidebar"></i></div></a>
+        <a href="#resume" style="text-decoration:none"><div class="sidenavdiv"><i class="fa fa-book fa-sidebar"></i></div></a>
+        <a href="#work" style="text-decoration:none"><div class="sidenavdiv"><i class="fa fa-laptop fa-sidebar"></i></div></a>
+        <a href="#contact" style="text-decoration:none"><div class="sidenavdiv"><i class="fa fa-phone fa-sidebar"></i></div></a>
+    </div>
+
     <div class="container-fluid" style="background-image: url('{{ asset('images/hero-image.jpeg') }}')">
         <div class="main">
             @include('partials.header')
@@ -34,6 +42,8 @@
         <div class="main-content">
             @yield('contentmain')
         </div> <!--main-content closed-->
+
+        
     </div>
     
     <div id="about" class="home-about-section">
