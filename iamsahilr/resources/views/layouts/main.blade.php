@@ -210,7 +210,7 @@
                 <h1>Get in touch</h1>
                 <br>
                 <em>
-                    <p><i class="fa fa-home"></i> &nbsp; 630 Guelph Street, Winnipeg, MB, Canada</p>
+                    <p><i class="fa fa-home"></i> &nbsp;Winnipeg, Manitoba, Canada</p>
                     <p><i class="fa fa-envelope"></i> &nbsp; iamsahil.sr@gmail.com</p>
                     <p> <i class="fa fa-phone"></i> &nbsp; +1(204) 952-8407</p>
                 </em>
@@ -218,7 +218,7 @@
                 <br>
 
                 <hr>
-                <h2>Feedback</h2>
+                <!-- <h2>Feedback</h2>
                 <form action="#" novalidate>
                     @csrf
                     <div class="form-group">
@@ -230,7 +230,7 @@
                     </div>
 
                     <button type="submit" class="btn btn-success">Send Message</button>
-                </form>
+                </form> -->
             </div>
         </div>
         
