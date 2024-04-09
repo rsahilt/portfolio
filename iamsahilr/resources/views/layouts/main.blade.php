@@ -139,6 +139,15 @@
                             JavaScript
                             <div class="bar_container">
                             <span class="bar" data-bar='{ "color": "#9b59b6", "delay": 1200 }'>
+                                <span class="pct">85%</span>
+                            </span>
+                            </div>
+                        </li>
+
+                        <li>
+                            React
+                            <div class="bar_container">
+                            <span class="bar" data-bar='{ "color": "#27ae60", "delay": 600 }'>
                                 <span class="pct">80%</span>
                             </span>
                             </div>
@@ -204,8 +213,7 @@
     <div id="contact" class="home-contact-section" style="background-color:green">
         <div class="container-contact">
             <div class="map-container">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2572.227364783468!2d-97.1609818234021!3d49.85697357148483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52ea743e872695ff%3A0x37f5db9b7476562d!2s630%20Guelph%20St%2C%20Winnipeg%2C%20MB%20R3M%203B2!5e0!3m2!1sen!2sca!4v1705719835951!5m2!1sen!2sca" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d164633.82700442773!2d-97.31764586069454!3d49.85366378443741!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52ea73fbf91a2b11%3A0x2b2a1afac6b9ca64!2sWinnipeg%2C%20MB!5e0!3m2!1sen!2sca!4v1712686223336!5m2!1sen!2sca" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            </div>
             <div class="links-container" style="color:white; padding:20px 0 0 20px;">
                 <h1>Get in touch</h1>
                 <br>
@@ -218,7 +226,7 @@
                 <br>
 
                 <hr>
-                <!-- <h2>Feedback</h2>
+                <h2>Feedback</h2>
                 <form action="#" novalidate>
                     @csrf
                     <div class="form-group">
@@ -230,7 +238,7 @@
                     </div>
 
                     <button type="submit" class="btn btn-success">Send Message</button>
-                </form> -->
+                </form>
             </div>
         </div>
         
