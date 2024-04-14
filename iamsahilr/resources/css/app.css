@@ -412,4 +412,33 @@ hr{
         width: 100vw;
     }
 
+    .home-work-container,
+    .home-work-section{
+        display: flex;
+        height: auto;
+    }
+
+    .work-container .prod-container{
+        margin: 10px auto;
+        padding: 0;
+        width: 90%;
+    }
+
+    .container-contact{
+        flex-direction: column-reverse;
+    }
+
+    .map-container,
+    .links-container{
+        width: 100vw;
+    }
+
+    .map-container{
+        height: 200px;
+    }
+
+    .form-group{
+        width: 90%;
+    }
+
 }
