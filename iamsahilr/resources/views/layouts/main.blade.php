@@ -34,7 +34,7 @@
         <a href="#contact" style="text-decoration:none"><div class="sidenavdiv"><i class="fa fa-phone fa-sidebar"></i></div></a>
     </div>
 
-    <div class="container-fluid" style="background-image: url('{{ asset('images/hero-image.jpeg') }}')">
+    <div class="container-fluid first" style="background-image: url('{{ asset('images/hero-image.jpeg') }}')">
         <div class="main">
             @include('partials.header')
         </div> <!--main closed-->
@@ -102,7 +102,7 @@
                 </ul>
             </div>
             <div class="cont-right">
-                <ul>
+                <ul class="skills1">
                     <li class="resume-li">Professional Summary</li>
                     <li class="resume-li">
                         <p>
@@ -111,7 +111,7 @@
                     </li>
                 </ul>
 
-                <ul>
+                <ul class="skills2">
                     <li class="resume-li">Work Experience</li>
                     <li class="resume-li">Web Developer, 2019-2022</li>
                     <li class="resume-li"><em>Crossover Nepal Pvt. Ltd., Nepal</em></li>
