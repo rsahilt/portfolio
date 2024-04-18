@@ -363,6 +363,16 @@ hr{
     color: #999;
 }
 
+footer{
+    text-align: center;
+    padding: 15px;
+    color: #d8d6da;
+    background-color: rgb(39, 36, 44);
+}
+
+.projectsheading{
+    display: none;
+}
 
 
 
@@ -374,7 +384,7 @@ hr{
 
 @media only screen and (max-width:720px){
 
-    .sidenav{
+    .navbar{
         display: none;
     }
 
@@ -386,19 +396,26 @@ hr{
         display: none;
     }
 
+    .home-resume-section{
+        height: auto;
+    }
+
     .bio{
         width: 100%;
-        padding: 15px;
+        padding-top: 50px;
         text-align: justify;
+        height: auto;
     }
 
     .resume-header{
         display: none;
+        height: auto;
     }
 
     .resume-content{
         display: flex;
         flex-direction: column;
+        height: auto;
     }
 
     .cont-left,
@@ -439,6 +456,14 @@ hr{
 
     .form-group{
         width: 90%;
+    }
+    .projectsheading{
+        display: flex;
+    }
+
+    .hyperlink{
+        text-decoration: none;
+        color: black;
     }
 
 }

@@ -68,7 +68,7 @@
                 <h1>Sahil Rajbhandari</h1>
             </div>
             <div class="address">
-                <p><i class="fa fa-home"></i> &nbsp; 304 - 630 Guelph Street</p>
+                <p><i class="fa fa-home"></i> &nbsp; Winnipeg, Manitoba</p>
                 <p><i class="fa fa-phone"></i> &nbsp; +1(204) 952-8407</p>
                 <p><i class="fa fa-envelope"></i> &nbsp; srajbhandari63@gmail.com</p>
             </div>
@@ -179,6 +179,16 @@
 
     <div id="work" class="home-work-section" style="background-color:green">
         <div class="work-container">
+            <div class="projectsheading">
+                <ul class="skills2">
+                    <li class="resume-li">Portfolio</li>
+                    <li class="resume-li">
+                        <a class="hyperlink" href="https://github.com/rsahilt">View Github</a>
+                    </li>
+                </ul>
+            </div>
+            
+
             <div class="prod-container" data-aos="fade-in" data-aos-duration="1000">
                 <a href="https://rsahilt.github.io/spaceshooter/">
                     <img class="work-img" src="/images/spaceshooter.png" alt="display picture">
@@ -245,6 +255,8 @@
         </div>
         
     </div>
+
+    <footer><sup>&copy</sup> 2024 Sahil Rajbhandari, Winnipeg, MB, Canada</footer>
 
     <!-- script for animation -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
