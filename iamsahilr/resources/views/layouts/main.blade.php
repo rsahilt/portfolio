@@ -113,8 +113,8 @@
 
                 <ul class="skills2">
                     <li class="resume-li">Work Experience</li>
-                    <li class="resume-li">Web Developer, 2019-2022</li>
-                    <li class="resume-li"><em>Crossover Nepal Pvt. Ltd., Nepal</em></li>
+                    <li class="resume-li">Web Developer, 2019 - Present</li>
+                    <!-- <li class="resume-li"><em>Crossover Nepal Pvt. Ltd., Nepal</em></li> -->
                 </ul>
 
                 <div>
