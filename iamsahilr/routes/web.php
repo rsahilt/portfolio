@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\Admin\AdminController;
+use App\Http\Controllers\MessageController;
 
 /*
 |--------------------------------------------------------------------------
@@ -26,3 +27,6 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 // Dashboard Route for Admin
 Route::get('/admincontroller', [AdminController::class, 'index'])->name('admin.dashboard');
+
+//Route to send message to the admin
+Route::post('/send-message', [MessageController::class, 'store'])->name('send.message');

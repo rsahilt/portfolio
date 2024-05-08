@@ -239,10 +239,15 @@
 
                 <hr>
                 <h2>Feedback</h2>
-                <form action="#" novalidate>
-                    @csrf
+                <form action="{{ route('send.message') }}" method="post" novalidate>
+                @if(session('success'))
+                    <div class="alert alert-success">
+                        {{ session('success') }}
+                    </div>
+                @endif
+                 @csrf
                     <div class="form-group">
-                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Your email">
+                        <input type="text" class="form-control" id="name" name="username" placeholder="Your full name">
                     </div>
 
                     <div class="form-group">
