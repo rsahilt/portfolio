@@ -239,7 +239,7 @@
 
                 <hr>
                 <h2>Feedback</h2>
-                <form action="{{ route('send.message') }}" method="post" novalidate>
+                <form action="{{ route('send.message') }}" method="POST" novalidate>
                 @if(session('success'))
                     <div class="alert alert-success">
                         {{ session('success') }}
