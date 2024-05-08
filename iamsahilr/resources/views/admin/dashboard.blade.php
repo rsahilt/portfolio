@@ -9,7 +9,7 @@
         <div class="card">
             <div class="card-body">
                 <h5 class="card-title">Inbox</h5>
-                <p class="card-text">2</p>
+                <p class="card-text">{{ $totalMessages }}</p>
             </div>
         </div>
     </div>
@@ -37,7 +37,7 @@
     <hr class="mt-4">
     
     <div class="messages">
-        <h1>Messages Recieved</h1>
+        <h1>{{ $title }}</h1>
         <table class="table table-striped">
             <thead>
                 <tr>

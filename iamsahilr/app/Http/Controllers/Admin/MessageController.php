@@ -12,7 +12,8 @@ class MessageController extends Controller
     public function index(){
         $title = "Messages Recieved";
         $messages = Message::all();
-        return view('admin.dashboard', compact('title', 'messages'));
+        $totalMessages = Message::count();
+        return view('admin.dashboard', compact('title', 'messages', 'totalMessages'));
     }
 
     //store function to store the message
