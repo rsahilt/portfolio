@@ -35,6 +35,29 @@
     </div>
 
     <hr class="mt-4">
+    
+    <div class="messages">
+        <h1>Messages Recieved</h1>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>User Name</th>
+                    <th>Message</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                @foreach($messages as $message)
+                    <tr>
+                        <td>{{ $message->id }}</td> <!-- Display the ID of the message -->
+                        <td>{{ $message->username }}</td>
+                        <td>{{ $message->message }}</td>
+                    </tr>
+                @endforeach
+            </tbody>
+        </table>
+    </div>
 
 </div>
 
