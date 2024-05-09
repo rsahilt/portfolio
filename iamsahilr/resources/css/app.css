@@ -487,6 +487,12 @@ footer{
     padding-top: 2px;
 }
 
+.alert-success{
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
 /* --------------------------------------
 ---------------------------------------
 ---------MEDIA QUERIES FOR MOBILE -----

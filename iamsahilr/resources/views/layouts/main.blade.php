@@ -26,6 +26,16 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body>
+    @if(session('success'))
+        <div class="alert alert-success" id="successMessage">
+            {{ session('success') }}
+        </div>
+        <script>
+        setTimeout(function() {
+            document.getElementById('successMessage').style.display = 'none';
+        }, 3000);
+    </script>
+    @endif
 
     <div class="sidenav">
         <a href="#about" style="text-decoration:none"><div class="sidenavdiv"><i class="fa fa-user fa-sidebar"></i></div></a>
@@ -240,11 +250,7 @@
                 <hr>
                 <h2>Feedback</h2>
                 <form action="{{ route('send.message') }}" method="POST" novalidate>
-                @if(session('success'))
-                    <div class="alert alert-success">
-                        {{ session('success') }}
-                    </div>
-                @endif
+                
                  @csrf
                     <div class="form-group">
                         <input type="text" class="form-control" id="name" name="username" placeholder="Your full name">
