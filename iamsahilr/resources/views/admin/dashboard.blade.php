@@ -36,7 +36,7 @@
 
     <hr class="mt-4">
     
-    <div class="messages">
+    <!-- <div class="messages">
         <h1>{{ $title }}</h1>
         <table class="table table-striped">
             <thead>
@@ -50,14 +50,14 @@
             <tbody>
                 @foreach($messages as $message)
                     <tr>
-                        <td>{{ $message->id }}</td> <!-- Display the ID of the message -->
+                        <td>{{ $message->id }}</td> 
                         <td>{{ $message->username }}</td>
                         <td>{{ $message->message }}</td>
                     </tr>
                 @endforeach
             </tbody>
         </table>
-    </div>
+    </div> -->
 
 </div>
 

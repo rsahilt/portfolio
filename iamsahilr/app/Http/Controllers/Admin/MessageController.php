@@ -13,7 +13,7 @@ class MessageController extends Controller
         $title = "Messages Recieved";
         $messages = Message::all();
         $totalMessages = Message::count();
-        return view('admin.dashboard', compact('title', 'messages', 'totalMessages'));
+        return view('admin.messages', compact('title', 'messages', 'totalMessages'));
     }
 
     //store function to store the message

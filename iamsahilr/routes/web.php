@@ -25,11 +25,10 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-// Dashboard Route for Admin
-Route::get('/admincontroller', [AdminController::class, 'index'])->name('admin.dashboard');
+//Admin Routes
+Route::get('/admin', [AdminController::class, 'index'])->name('admin.dashboard');
 
-//Route to send message to the admin
+Route::get('/admin/messages', [MessageController::class, 'index'])->name('admin.messages');
 
-Route::get('/admincontroller', [MessageController::class, 'index'])->name('admin.inbox');
-
+// Route to send message to admin 
 Route::post('/send-message', [MessageController::class, 'store'])->name('send.message');
