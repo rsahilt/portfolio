@@ -441,45 +441,50 @@ footer{
 
 .testimonials .container-fluid{
     width: 96%;
-    height: 400px;
-    background-color: red;
+    height: auto;
     margin-top: 10px;
 }
 
 .review{
     width: 100%;
     min-height: 100px;
-    background-color: blue;
     display: flex;
     flex-direction: row;
     margin-bottom: 7px;
     display: flex;
     flex-direction: row;
+    background-color: #f1f0f3;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .dp{
     width: 8%;
     height: 100%;
-    background-color: grey;
+    border-radius: 50%;
+}
+
+.dp-img-admin{
+    max-width: 80%;
     border-radius: 50%;
 }
 
 .user{
     width: 92%;
     height: 100%;
-    background-color: yellow;
 }
 
 .username{
     width: 100%;
     height: 40%;
-    background-color: orange;
+    font-weight: bold;
+    font-size: 1.14em;
 }
 
 .userreview{
     width: 100%;
     height: 60%;
-    background-color: green;
+    padding-top: 2px;
 }
 
 /* --------------------------------------
