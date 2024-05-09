@@ -435,14 +435,13 @@ footer{
     font-size: 1.1em;
 }
 
-
-
 /* admin */
 
 .testimonials .container-fluid{
     width: 96%;
-    height: auto;
+    height: 80vh;
     margin-top: 10px;
+    overflow-y: auto;
 }
 
 .review{
@@ -487,12 +486,19 @@ footer{
     padding-top: 2px;
 }
 
-.alert-success{
+.alert-success,
+.alert-danger{
     margin: 0;
     padding: 10px;
     text-align: center;
+    border-radius: none;
 }
 
+.btn-danger{
+    padding: 0 10px;
+    height: 50%;
+    margin-top: 20px;
+}
 /* --------------------------------------
 ---------------------------------------
 ---------MEDIA QUERIES FOR MOBILE -----

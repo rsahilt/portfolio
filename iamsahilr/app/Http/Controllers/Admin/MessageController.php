@@ -28,4 +28,12 @@ class MessageController extends Controller
 
         return redirect('/')->with('success', 'Your message has been sent succefully!');
     }
+
+    public function destroy($id)
+    {
+        $message = Message::findOrFail($id);
+        $message->delete();
+        return redirect()->route('admin.messages')
+            ->with('success', 'Message deleted successfully');
+    }
 }

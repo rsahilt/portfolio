@@ -30,5 +30,8 @@ Route::get('/admin', [AdminController::class, 'index'])->name('admin.dashboard')
 
 Route::get('/admin/messages', [MessageController::class, 'index'])->name('admin.messages');
 
+Route::delete('/admin/messages/{id}', [MessageController::class, 'destroy'])
+     ->name('admin.messages.destroy');
+
 // Route to send message to admin 
 Route::post('/send-message', [MessageController::class, 'store'])->name('send.message');

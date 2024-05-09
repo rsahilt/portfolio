@@ -2,6 +2,17 @@
 
 @section('content')
 
+@if(session('success'))
+    <div class="alert alert-danger" id="successMessage">
+        {{ session('success') }}
+    </div>
+    <script>
+    setTimeout(function() {
+        document.getElementById('successMessage').style.display = 'none';
+    }, 3000);
+</script>
+@endif
+
 <div class="testimonials">
   
     <div class="container-fluid">
@@ -14,6 +25,11 @@
                 <div class="username">{{ $message->username }}</div>
                 <div class="userreview">{{ $message->message }}</div>
             </div>
+            <form action="{{ route('admin.messages.destroy', $message->id) }}" method="POST" novalidate>
+                @csrf
+                @method('DELETE')
+                <button type="submit" class="btn btn-danger">Delete</button>
+            </form>
         </div>
         @endforeach
     </div>
