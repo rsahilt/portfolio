@@ -46,55 +46,53 @@
             <div class="d-flex flex-column flex-shrink-0 p-3 bg-whiter" style="width: 100%;">
                 <ul class="nav nav-pills flex-column mb-auto">
                     <li>
-                        <a href="#" class="nav-link">
+                        <a href=" {{ route('admin.dashboard') }} " class="nav-link">
                         <i class="fa fa-tachometer"></i> &nbsp;
                         Dashboard
                         </a>
                     </li>
                     
                     <li>
-                        <a href="#" class="nav-link">
+                        <a href="{{ route('admin.messages') }}" class="nav-link">
                         <i class="fa fa-envelope"></i> &nbsp;
                         Messages
                         </a>
                     </li>
 
-                    <li>
+                    <!-- <li>
                         <a href="#" class="nav-link">
                         <i class="fa fa-calendar"></i> &nbsp;
                         Calendar
                         </a>
-                    </li>
+                    </li> -->
 
-                    <li>
+                    <!-- <li>
                         <a href="#" class="nav-link">
                         <i class="fa fa-question-circle"></i> &nbsp;
                         FAQ
                         </a>
-                    </li>
+                    </li> -->
 
-                    <li>
+                    <!-- <li>
                         <a href="#" class="nav-link">
                         <i class="fa fa-chart-area"></i> &nbsp;
                         Analytics
                         </a>
-                    </li>
+                    </li> -->
 
-                    <li>
+                    <!-- <li>
                         <a href="#" class="nav-link">
                         <i class="fa fa-exclamation-triangle"></i> &nbsp;
                         Errors
                         </a>
-                    </li>
+                    </li> -->
 
                     <li>
-                        <a href="#" class="nav-link">
+                        <a href="/" class="nav-link">
                         <i class="fa fa-globe"></i> &nbsp;
                         Landing Page
                         </a>
                     </li>
-
-                    
 
                 </ul>
             </div>
