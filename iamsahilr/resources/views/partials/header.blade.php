@@ -24,7 +24,6 @@
             <li class="nav-item">
             <a class="nav-link active" aria-current="contact" href="#contact">Contact</a>
             </li>
-            
         </ul>
     </div>
 

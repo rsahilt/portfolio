@@ -13,7 +13,7 @@
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;600&family=Russo+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;700&display=swap" rel="stylesheet">
 
     <!-- script for typing effect -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
@@ -57,178 +57,105 @@
     </div>
     
     <div id="about" class="home-about-section">
-        <div class="image">
-            <img src="/images/photo1.png" alt="display picture">
+
+        <div class="display-picture">
+            <img src="{{asset('/images/frontdp.jpg')}}" alt="developer image" data-aos="fade-left" data-aos-duration="1000">
         </div>
 
-        <div class="bio" data-aos="fade-in" data-aos-duration="1000">
-            <h1>Who am I?</h1>
+        <div class="bio" data-aos="fade-left" data-aos-duration="2000">
+            <h1 data-aos="fade-left" data-aos-duration="600">Who am I?</h1>
 
-            <span class="job-title">Web Designer/Developer</span>
+            <span class="job-title" data-aos="fade-left" data-aos-duration="2000">Web Designer/Developer</span>
 
             <p>I'm an enthusiastic web developer, fueled by a passion for creating digital experiences that truly resonate. My world revolves around lines of code that I mold into visually captivating and functionally seamless websites. I thrive on the ever-evolving nature of technology, constantly seeking out the latest trends and tools to integrate into my projects.</p>
 
-            <p >I see myself not just as a coder but as a problem-solving architect, always eager to tackle challenges and turn them into opportunities for innovation. Design isn't just an afterthought for me, it's a crucial element woven into every project, ensuring not only flawless functionality but also a visually stunning end product.</p>
+            <p>I see myself not just as a coder but as a problem-solving architect, always eager to tackle challenges and turn them into opportunities for innovation. Design isn't just an afterthought for me, it's a crucial element woven into every project, ensuring not only flawless functionality but also a visually stunning end product.</p>
         </div>
+
     </div>
 
-    <div id="resume" class="home-resume-section" style="background-color:#e7ebee">
-        <div class="resume-header">
-            <div class="myname">
-                <h1>Sahil Rajbhandari</h1>
+    <div class="skills">
+        <h1 data-aos="fade-left" data-aos-duration="600">What do I know?</h1>
+        <div class="skills-container">
+            <div class="skill">
+                <span class="skill-name">HTML5</span>
+                <div class="skill-bar">
+                    <div class="skill-percentage" data-percentage="90"></div>
+                </div>
             </div>
-            <div class="address">
-                <p><i class="fa fa-home"></i> &nbsp; Winnipeg, Manitoba</p>
-                <p><i class="fa fa-phone"></i> &nbsp; +1(204) 952-8407</p>
-                <p><i class="fa fa-envelope"></i> &nbsp; srajbhandari63@gmail.com</p>
+            <div class="skill">
+                <span class="skill-name">CSS3</span>
+                <div class="skill-bar">
+                    <div class="skill-percentage" data-percentage="85"></div>
+                </div>
             </div>
-        </div>
-        <div class="resume-content">
-            <div class="cont-left">
-                <ul>
-                    <li class="resume-li">Education</li>
-                    <li class="resume-li">Post Graduate in Web Developement | 2023</li>
-                    <li class="resume-li">The University of Winnipeg</li>
-                    <li class="resume-li">Winnipeg, Manitoba, Canada</li>
-                    <br>
-                    <li class="resume-li">Bachelors' of Science (Honours) Computing | 2019</li>
-                    <li class="resume-li">The University of Northampton</li>
-                    <li class="resume-li">Northampton, United Kingdom</li>
-                </ul>
-
-                <ul>
-                    <li class="resume-li">Key Skills</li>
-                    <li class="resume-li bullets">HTML5</li>
-                    <li class="resume-li bullets">CSS3</li>
-                    <li class="resume-li bullets">JavaScript</li>
-                    <li class="resume-li bullets">PHP</li>
-                    <li class="resume-li bullets">Laravel</li>
-                    <li class="resume-li bullets">MySQL</li>
-                    <li class="resume-li bullets">Git</li>
-                    <li class="resume-li bullets">Wordpress</li>
-                    <li class="resume-li bullets">Bootstrap</li>
-                    <li class="resume-li bullets">Tailwind</li>
-                    <li class="resume-li bullets">SEO</li>
-                </ul>
+            <div class="skill">
+                <span class="skill-name">JavaScript</span>
+                <div class="skill-bar">
+                    <div class="skill-percentage" data-percentage="75"></div>
+                </div>
             </div>
-            <div class="cont-right">
-                <ul class="skills1">
-                    <li class="resume-li">Professional Summary</li>
-                    <li class="resume-li">
-                        <p>
-                        Proficient in computer science and with a robust technical skill set, I specialize in web development, boasting extensive mastery in PHP, WordPress, JavaScript, HTML5, CSS3, XML and Laravel. My expertise extends to adeptly troubleshooting technical issues, help desk, customer service, service request and ensuring seamless operational efficiency across various platforms. Skillfully managing procedure deveopment, disbursement records and seamlessly integrating advanced technologies such as Laravel, OOP, Tailwind, and Bootstrap, I consistently drive innovation within web development endeavors. I harness my multilingual abilities to facilitate effective communication, fostering collaboration among diverse teams. 
-                        </p>
-                    </li>
-                </ul>
-
-                <ul class="skills2">
-                    <li class="resume-li">Work Experience</li>
-                    <li class="resume-li">Web Developer, 2019 - Present</li>
-                    <!-- <li class="resume-li"><em>Crossover Nepal Pvt. Ltd., Nepal</em></li> -->
-                </ul>
-
-                <div>
-                    <ul id="skills">
-                        <li>
-                            HTML5
-                            <div class="bar_container">
-                            <span class="bar" data-bar='{ "color": "#19f" }'>
-                                <span class="pct">95%</span>
-                            </span>
-                            </div>
-                        </li>
-                        <li>
-                            CSS3
-                            <div class="bar_container">
-                            <span class="bar" data-bar='{ "color": "#27ae60", "delay": 600 }'>
-                                <span class="pct">90%</span>
-                            </span>
-                            </div>
-                        </li>
-                        <li>
-                            JavaScript
-                            <div class="bar_container">
-                            <span class="bar" data-bar='{ "color": "#9b59b6", "delay": 1200 }'>
-                                <span class="pct">85%</span>
-                            </span>
-                            </div>
-                        </li>
-
-                        <li>
-                            React
-                            <div class="bar_container">
-                            <span class="bar" data-bar='{ "color": "#27ae60", "delay": 600 }'>
-                                <span class="pct">80%</span>
-                            </span>
-                            </div>
-                        </li>
-                        
-                        <li>
-                            PHP
-                            <div class="bar_container">
-                            <span class="bar" data-bar='{ "color": "#19f" }'>
-                                <span class="pct">85%</span>
-                            </span>
-                            </div>
-                        </li>
-
-                        <li>
-                            Laravel
-                            <div class="bar_container">
-                            <span class="bar" data-bar='{ "color": "#9b59b6", "delay": 1200 }'>
-                                <span class="pct">80%</span>
-                            </span>
-                            </div>
-                        </li>
-                    </ul>
+            <div class="skill">
+                <span class="skill-name">React</span>
+                <div class="skill-bar">
+                    <div class="skill-percentage" data-percentage="70"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <span class="skill-name">Node</span>
+                <div class="skill-bar">
+                    <div class="skill-percentage" data-percentage="65"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <span class="skill-name">PHP</span>
+                <div class="skill-bar">
+                    <div class="skill-percentage" data-percentage="80"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <span class="skill-name">Laravel</span>
+                <div class="skill-bar">
+                    <div class="skill-percentage" data-percentage="70"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <span class="skill-name">MySQL</span>
+                <div class="skill-bar">
+                    <div class="skill-percentage" data-percentage="75"></div>
                 </div>
             </div>
         </div>
     </div>
 
+    <div class="works">
+        <h1 data-aos="fade-left" data-aos-duration="600">What have I done?</h1>
 
-    <div id="work" class="home-work-section" style="background-color:green">
-        <div class="work-container">
-            <div class="projectsheading">
-                <ul class="skills2">
-                    <li class="resume-li">Portfolio</li>
-                    <li class="resume-li">
-                        <a class="hyperlink" href="https://github.com/rsahilt">View Github</a>
-                    </li>
-                </ul>
-            </div>
-            
-
-            <div class="prod-container" data-aos="fade-in" data-aos-duration="1000">
-                <a href="https://rsahilt.github.io/spaceshooter/">
-                    <img class="work-img" src="/images/spaceshooter.png" alt="display picture">
-                </a>
-            </div>
-            <div class="prod-container" data-aos="fade-in" data-aos-duration="1000">
-                <a href="https://rsahilt.github.io/timhortons/">
-                    <img class="work-img" src="/images/timhortons.png" alt="display picture">
-                </a>
-            </div>
-            <div class="prod-container" data-aos="fade-in" data-aos-duration="1000">
-                <a href="https://rsahilt.github.io/tognepal/">
-                    <img class="work-img" src="/images/tognepal.png" alt="display picture">
-                </a>
+        <div class="works-container">
+            <div class="work-thumbnail" data-aos="fade-in" data-aos-duration="1000">
+                <img src="{{asset('/images/sparkincthmb.png')}}" alt="Work 1 Thumbnail">
+                <video src="{{asset('/videos/sparkincvid.mov')}}" muted></video>
             </div>
 
-            <div class="prod-container" data-aos="fade-in" data-aos-duration="1000">
-                <a href="https://rsahilt.github.io/iamsahilr/">
-                    <img class="work-img" src="/images/iamsahilr.png" alt="display picture">
-                </a>
+            <div class="work-thumbnail" data-aos="fade-in" data-aos-duration="1000">
+                <img src="{{asset('/images/flandthmb.png')}}" alt="Work 1 Thumbnail">
+                <video src="{{asset('/videos/flandvid.mp4')}}" muted></video>
             </div>
 
-            <div class="prod-container" data-aos="fade-in" data-aos-duration="1000">
-                <a href="https://rsahilt.github.io/darkangel/">
-                    <img class="work-img" src="/images/darkangel.png" alt="display picture">
-                </a>
+            <div class="work-thumbnail" data-aos="fade-in" data-aos-duration="1000">
+                <img src="{{asset('/images/togthmb.png')}}" alt="Work 1 Thumbnail">
+                <video src="{{asset('/videos/togvid.mp4')}}" muted></video>
             </div>
 
+            <div class="work-thumbnail" data-aos="fade-in" data-aos-duration="1000">
+                <img src="{{asset('/images/homethmb.png')}}" alt="Work 1 Thumbnail">
+                <video src="{{asset('/videos/homeeleganz.mp4')}}" muted></video>
+            </div>
         </div>
+
+        <p><a href="#">Checkout my github</a></p>
     </div>
+
 
     <div id="contact" class="home-contact-section" style="background-color:green">
         <div class="container-contact">
@@ -236,7 +163,7 @@
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d164633.82700442773!2d-97.31764586069454!3d49.85366378443741!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52ea73fbf91a2b11%3A0x2b2a1afac6b9ca64!2sWinnipeg%2C%20MB!5e0!3m2!1sen!2sca!4v1712686223336!5m2!1sen!2sca" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            
             </div>
             
-            <div class="links-container" style="color:white; padding:20px 0 0 20px;">
+            <div class="links-container" style="padding:20px 0 0 20px;">
                 <h1>Get in touch</h1>
                 <br>
                 <em>

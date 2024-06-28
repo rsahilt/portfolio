@@ -58,34 +58,45 @@ window.onload = function() {
 };
 
 
+document.addEventListener('DOMContentLoaded', function() {
+  const skillPercentages = document.querySelectorAll('.skill-percentage');
+  
+  const observerOptions = {
+      root: null,
+      rootMargin: '0px',
+      threshold: 0.1
+  };
+  
+  const observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+          if (entry.isIntersecting) {
+              const skill = entry.target;
+              const percentage = skill.getAttribute('data-percentage');
+              skill.style.width = percentage + '%';
+              observer.unobserve(skill);  // Stop observing once the animation is triggered
+          }
+      });
+  }, observerOptions);
+  
+  skillPercentages.forEach(skill => {
+      observer.observe(skill);
+  });
+});
 
-// SKILLSBAR
-;(function($) {
-    "use strict";
-    
-    $(".bar").each(function() {
-      
-      var $bar = $(this),
-          $pct = $bar.find(".pct"),
-          data = $bar.data("bar");
-      
-      setTimeout(function() {
-        
-        $bar
-          .css("background-color", data.color)
-          .animate({
-            "width": $pct.html()
-        }, data.speed || 2000, function() {
-          
-          $pct.css({
-            "color": data.color,
-            "opacity": 1
-          });
-          
+
+document.addEventListener('DOMContentLoaded', function() {
+    const thumbnails = document.querySelectorAll('.work-thumbnail');
+
+    thumbnails.forEach(thumbnail => {
+        const video = thumbnail.querySelector('video');
+
+        thumbnail.addEventListener('mouseover', () => {
+            video.play();
         });
-        
-      }, data.delay || 0);
-      
+
+        thumbnail.addEventListener('mouseout', () => {
+            video.pause();
+            video.currentTime = 0;
+        });
     });
-    
-  })(jQuery);
+});

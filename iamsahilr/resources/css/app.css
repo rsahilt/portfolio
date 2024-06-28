@@ -3,6 +3,8 @@
 
 body{
     scroll-behavior: smooth;
+    background-color:#011627;
+    font-family: 'Inconsolata', monospace;
 }
 
 .typing-effect {
@@ -18,7 +20,7 @@ body{
     color: white;
     text-decoration: none;
     font-size: 4rem;
-    font-family: 'Heebo', sans-serif;
+    font-weight: 700;
 }
 
 .container-fluid {
@@ -92,71 +94,61 @@ body{
 }
 
 .home-about-section,
-.home-resume-section,
-.home-work-section,
 .home-contact-section{
     height: 100vh;
 }
 
+ 
 .home-about-section{
-    display: -webkit-flex;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-}
-
-.image,
-.bio{
-    height: 100vh;
-}
-
-.image{
-    width: 30%;
-    background-color: black;
-    display: -webkit-flex;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.image img{
-    max-width: 100%;
-    height: auto;
-    margin-left: 5rem;
-}
-
-.bio{
-    width: 70%;
-    height: 60vh;
-    padding: 4rem;
-    font-size: 1.4rem;
-    justify-content: center;
-    align-items: center;
-}
-
-span.job-title{
-    color: gray;
-    display: block;
-    margin-bottom: 1rem;
-    font-size: 1.3rem;
-}
-
-.home-resume-section{
+    margin: 0 auto;
     display: -webkit-flex;
     display: flex;
     flex-direction: column;
+    width: 60%;
+    margin-top: 4rem;
+    justify-content: center;
 }
 
-.resume-header{
-    height: 15vh;
-    display: -webkit-flex;
-    display: flex;
-    flex-direction: row;
-    background-color: #d0d8de;
-    justify-content: center;
-    align-items: center;
+.display-picture{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-left: 4rem;
+}
+
+.display-picture img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.bio{
+    width: 100%;
+    height: 60vh;
+    padding: 2rem 4rem 4rem 4rem;
+    font-size: 1.4rem;
+}
+
+.bio h1,
+.skills h1,
+.works h1{
+    color: #addb67;
+}
+
+.bio span{
+    color: #d6deeb;
+}
+
+.bio p{
+    color: #d6deeb;
+    font-size: 0.8em !important;
+}
+
+span.job-title{
+    color: #82aaff;
+    display: block;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
 }
 
 .myname{
@@ -170,18 +162,10 @@ span.job-title{
 .myname{
     padding-left: 2rem;
 }
-
 .myname h1{
     font-size: 3rem;
 }
 
-
-.resume-content{
-    height: 85vh;
-    display: -webkit-flex;
-    display: flex;
-    flex-direction: row;
-}
 
 .cont-left{
     width: 25%;
@@ -195,16 +179,6 @@ span.job-title{
     height: 100%;
 }
 
-.resume-li:first-child{
-    padding-top: 20px;
-    font-weight: bold;
-    font-size: 1.7rem;
-}
-.resume-li{
-    list-style: none;
-    font-size: 1.2rem;
-    font-weight: 300;
-}
 
 .bullets{
     list-style: disc;
@@ -215,35 +189,88 @@ ul{
     list-style-type: none;
 }
 
-#skills {
-    width: 50%;
+.skills,
+.works {
+    width: 60%;
+    margin: 0 auto;
+    padding: 4rem;
 }
 
-#skills li {
-    position: relative;
-    margin-bottom: 32px;
-    padding-left: 6px;
+.skills-container {
+    margin-top: 20px;
 }
 
-.bar_container,
-.bar {
-    position: absolute;
-    left: 0;
-    height: 5px;
-    border-radius: 5px;
-    content: "";
+.skill {
+    margin-bottom: 15px;
 }
 
-.bar_container {
-    bottom: -8px;
+.skill-name {
+    font-weight: bold;
+    color: #d6deeb;
+}
+
+.skill-bar {
     width: 100%;
-    background-color: #333;
-    text-align: right;
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
 }
 
-.bar {
-    top: 0;
+.skill-percentage {
+    height: 10px;
+    width: 0;
+    background-color: red;
+    border-radius: 5px;
+    transition: width 1s ease-in-out;
 }
+
+.works-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.work-thumbnail {
+    position: relative;
+    width: 350px;
+    height: 220px;
+    overflow: hidden;
+    margin: 1%;
+}
+
+.work-thumbnail img, .work-thumbnail video {
+    max-width: 100%;
+    height: 100%;
+}
+
+.work-thumbnail video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.work-thumbnail:hover video {
+    opacity: 1;
+}
+
+.work-thumbnail:hover img {
+    opacity: 0;
+}
+
+.works p a{
+    color: #f78c6c;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+.works p a:hover{
+    font-weight: bold;
+}
+
 
 .pct {
     position: absolute;
@@ -251,52 +278,6 @@ ul{
     right: 0;
     opacity: 0;
     transition: opacity 0.3s linear;
-}
-
-.home-work-section{
-    display: -webkit-flex;
-    display: flex;
-    flex-direction: row;
-    background-color: white !important;
-}
-
-.work-container{
-    margin: 1%;
-    height: 97%;
-    width: 98%;
-    display: -webkit-flex;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.prod-container{
-    width: 28%;
-    height: 300px;
-    margin: 2%;
-    border-radius: 10px;
-    background-color: black;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-    transition: all 0.2s ease-in-out;
-}
-
-.work-img{
-    max-width: 100%;
-    height: 100%;
-    cursor: pointer;
-    border-radius: 10px;
-    background-color: black;
-    transition: all 0.4s ease-in-out;
-}
-
-.work-img:hover{
-    opacity: 0.7;
-}
-
-.home-work-container{
-    display: -webkit-flex;
-    display: flex;
-    flex-direction: row;
 }
 
 .container-contact{
@@ -313,7 +294,16 @@ ul{
 }
 
 .links-container{
-    background-color: #1e272f;
+    background-color:#011627;
+    color: #d6deeb;
+}
+
+.links-container h1, h2{
+    color: #addb67;
+}
+
+.links-container  p:last-of-type{
+    color: #f78c6c;
 }
 
 .map-container{
@@ -367,7 +357,10 @@ footer{
     text-align: center;
     padding: 15px;
     color: #d8d6da;
-    background-color: rgb(39, 36, 44);
+    /* background-color: rgb(39, 36, 44); */
+    background-color:#011627;
+    margin-top:3%;
+    border-top: 1px solid rgba(164, 149, 163, 0.945);
 }
 
 .projectsheading{
@@ -523,27 +516,12 @@ footer{
         display: none;
     }
 
-    .home-resume-section{
-        height: auto;
-    }
-
     .bio{
         width: 100%;
         padding-top: 50px;
         padding-left: 1.5rem;
         padding-right: 1.5rem;
         text-align: justify;
-        height: auto;
-    }
-
-    .resume-header{
-        display: none;
-        height: auto;
-    }
-
-    .resume-content{
-        display: flex;
-        flex-direction: column;
         height: auto;
     }
 
@@ -556,22 +534,6 @@ footer{
         margin: 0 auto;
         padding: 30px;
         width: 100vw;
-    }
-
-    .home-work-container,
-    .home-work-section{
-        display: flex;
-        height: auto;
-    }
-
-    .work-container, .prod-container{
-        margin: 10px auto;
-        padding: 0;
-        width: 90%;
-    }
-
-    .work-img{
-        width: 100%;
     }
 
     .container-contact{
