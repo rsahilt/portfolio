@@ -87,53 +87,53 @@
 
     <div class="skills">
         <h1 data-aos="fade-left" data-aos-duration="600">What do I know?</h1>
-        <div class="skills-container"  data-aos="fade-left" data-aos-duration="1000">
-            <div class="skill">
+        <div class="skills-container">
+            <div class="skill" data-aos="fade-left" data-aos-duration="100">
                 <span class="skill-name">HTML5</span>
+                <div class="skill-bar">
+                    <div class="skill-percentage" data-percentage="98"></div>
+                </div>
+            </div>
+            <div class="skill" data-aos="fade-left" data-aos-duration="300">
+                <span class="skill-name">CSS3</span>
+                <div class="skill-bar">
+                    <div class="skill-percentage" data-percentage="95"></div>
+                </div>
+            </div>
+            <div class="skill" data-aos="fade-left" data-aos-duration="500">
+                <span class="skill-name">JavaScript</span>
                 <div class="skill-bar">
                     <div class="skill-percentage" data-percentage="90"></div>
                 </div>
             </div>
-            <div class="skill">
-                <span class="skill-name">CSS3</span>
+            <div class="skill" data-aos="fade-left" data-aos-duration="700">
+                <span class="skill-name">React</span>
                 <div class="skill-bar">
                     <div class="skill-percentage" data-percentage="85"></div>
                 </div>
             </div>
-            <div class="skill">
-                <span class="skill-name">JavaScript</span>
-                <div class="skill-bar">
-                    <div class="skill-percentage" data-percentage="75"></div>
-                </div>
-            </div>
-            <div class="skill">
-                <span class="skill-name">React</span>
-                <div class="skill-bar">
-                    <div class="skill-percentage" data-percentage="70"></div>
-                </div>
-            </div>
-            <div class="skill">
+            <div class="skill" data-aos="fade-left" data-aos-duration="900">
                 <span class="skill-name">Node</span>
                 <div class="skill-bar">
-                    <div class="skill-percentage" data-percentage="65"></div>
-                </div>
-            </div>
-            <div class="skill">
-                <span class="skill-name">PHP</span>
-                <div class="skill-bar">
-                    <div class="skill-percentage" data-percentage="80"></div>
-                </div>
-            </div>
-            <div class="skill">
-                <span class="skill-name">Laravel</span>
-                <div class="skill-bar">
                     <div class="skill-percentage" data-percentage="70"></div>
                 </div>
             </div>
-            <div class="skill">
+            <div class="skill" data-aos="fade-left" data-aos-duration="1100">
+                <span class="skill-name">PHP</span>
+                <div class="skill-bar">
+                    <div class="skill-percentage" data-percentage="90"></div>
+                </div>
+            </div>
+            <div class="skill" data-aos="fade-left" data-aos-duration="1300">
+                <span class="skill-name">Laravel</span>
+                <div class="skill-bar">
+                    <div class="skill-percentage" data-percentage="90"></div>
+                </div>
+            </div>
+            <div class="skill" data-aos="fade-left" data-aos-duration="1500">
                 <span class="skill-name">MySQL</span>
                 <div class="skill-bar">
-                    <div class="skill-percentage" data-percentage="75"></div>
+                    <div class="skill-percentage" data-percentage="80"></div>
                 </div>
             </div>
         </div>
@@ -164,7 +164,7 @@
             </div>
         </div>
 
-        <p><a href="https://github.com/rsahilt">Checkout my github</a></p>
+        <p data-aos="fade-left" data-aos-duration="1000"><a href="https://github.com/rsahilt">Checkout my github</a></p>
     </div>
 
 

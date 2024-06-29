@@ -128,10 +128,9 @@ body{
     font-family: 'Heebo', sans-serif;
     font-weight: 300;
     padding: 0 0.6rem;
-    font-size: 1.2em;
+    font-size: 1em;
     color: #d8d6da;
-    margin-right: 1em;
-    
+    margin-right: 1.1em;
 }
 
 .nav-link::after{
