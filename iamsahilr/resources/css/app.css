@@ -7,6 +7,68 @@ body{
     font-family: 'Inconsolata', monospace;
 }
 
+.github-fixed,
+.fb-fixed,
+.insta-fixed,
+.linkedin-fixed{
+    transition: transform 0.2s ease-in-out;
+}
+
+.github-fixed:hover,
+.fb-fixed:hover,
+.insta-fixed:hover,
+.linkedin-fixed:hover{
+    transform: scale(1.2);
+}
+
+.fixed-links,
+.fixed-links-footer{
+    position: fixed;
+    background-color: #b4b9c5;
+    height: 150px;
+    width: 1px;
+    left: 50px;
+    bottom: 0px;
+}
+
+.fixed-links-footer{
+    height: 50px;
+    bottom: 320px;
+}
+
+.github-fixed{
+    position: fixed;
+    left: 36px;
+    bottom: 160px;
+}
+
+.fb-fixed{
+    position: fixed;
+    left: 36px;
+    bottom: 200px;
+}
+
+.insta-fixed{
+    position: fixed;
+    left: 36px;
+    bottom: 240px;
+}
+
+.linkedin-fixed{
+    position: fixed;
+    left: 36px;
+    bottom: 280px;
+}
+
+.fixed-links-right{
+    position: fixed;
+    background-color: #b4b9c5;
+    height: 150px;
+    width: 1px;
+    right: 50px;
+    bottom: 70px;
+}
+
 .typing-effect {
     display: -webkit-flex;
     display: flex;
@@ -93,9 +155,16 @@ body{
 	color: #302839;
 }
 
-.home-about-section,
-.home-contact-section{
+.home-about-section{
     height: 100vh;
+}
+
+.home-contact-section{
+    width: 60%;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
 }
 
  
@@ -131,7 +200,8 @@ body{
 
 .bio h1,
 .skills h1,
-.works h1{
+.works h1
+{
     color: #addb67;
 }
 
@@ -284,12 +354,12 @@ ul{
     display: -webkit-flex;
     display: flex;
     flex-direction: row;
-    height: 100vh;
+    width: 100%;
+    padding-left: 4rem;
 }
 
-.map-container,
 .links-container{
-    width: 50%;
+    width: 100%;
     height: 100%;
 }
 
@@ -306,10 +376,6 @@ ul{
     color: #f78c6c;
 }
 
-.map-container{
-    background-color: black;
-}
-
 .form-group{
     margin:20px 0 0 0;
     width: 70%;
@@ -317,6 +383,14 @@ ul{
 
 button[type="submit"]{
     margin-top: 20px;
+    background-color: transparent;
+    border-color: #2d5aa4;
+    transition: all 0.4s ease-in-out;
+}
+
+button[type="submit"]:hover{
+    background-color: transparent;
+    border-color: #376fd0;
 }
 
 hr{
@@ -359,8 +433,7 @@ footer{
     color: #d8d6da;
     /* background-color: rgb(39, 36, 44); */
     background-color:#011627;
-    margin-top:3%;
-    border-top: 1px solid rgba(164, 149, 163, 0.945);
+    margin-top: 7%;
 }
 
 .projectsheading{
