@@ -119,6 +119,7 @@ body{
 .insta-fixed,
 .linkedin-fixed{
     transition: transform 0.2s ease-in-out;
+    cursor: pointer;
 }
 
 .github-fixed:hover,
