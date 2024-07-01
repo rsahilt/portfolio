@@ -23,9 +23,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- @vite('resources/css/app.css') -->
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
+    @vite(['resources/css/app.css', 'resources/css/app.scss', 'resources/js/app.js'])
 </head>
 <body>
+
+<div class="lines">
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+</div>
+
 @if(session('success'))
     <div class="modal fade show d-block" id="successModal" tabindex="-1" role="dialog" aria-labelledby="successModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document" style="width: 100vw; height: 100vh;">
@@ -95,11 +102,11 @@
         <div class="bio" data-aos="fade-left" data-aos-duration="2000">
             <h1 data-aos="fade-left" data-aos-duration="600">Who am I?</h1>
 
-            <span class="job-title" data-aos="fade-left" data-aos-duration="2000">Web Designer & Developer</span>
+            <span class="job-title">Web Designer & Developer</span>
 
-            <p>I'm an enthusiastic web developer, fueled by a passion for creating digital experiences that truly resonate. My world revolves around lines of code that I mold into visually captivating and functionally seamless websites. I thrive on the ever-evolving nature of technology, constantly seeking out the latest trends and tools to integrate into my projects.</p>
+            <p data-aos="fade-left" data-aos-duration="1000">I'm an enthusiastic web developer, fueled by a passion for creating digital experiences that truly resonate. My world revolves around lines of code that I mold into visually captivating and functionally seamless websites. I thrive on the ever-evolving nature of technology, constantly seeking out the latest trends and tools to integrate into my projects.</p>
 
-            <p>I see myself not just as a coder but as a problem-solving architect, always eager to tackle challenges and turn them into opportunities for innovation. Design isn't just an afterthought for me, it's a crucial element woven into every project, ensuring not only flawless functionality but also a visually stunning end product.</p>
+            <p data-aos="fade-left" data-aos-duration="1100">I see myself not just as a coder but as a problem-solving architect, always eager to tackle challenges and turn them into opportunities for innovation. Design isn't just an afterthought for me, it's a crucial element woven into every project, ensuring not only flawless functionality but also a visually stunning end product.</p>
         </div>
 
     </div>
