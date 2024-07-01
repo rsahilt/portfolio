@@ -111,7 +111,7 @@
 
     </div>
 
-    <div class="skills">
+    <div class="skills" id="skills">
         <h1 data-aos="fade-left" data-aos-duration="600">What do I know?</h1>
         <div class="skills-container">
             <div class="skill" data-aos="fade-left" data-aos-duration="100">
@@ -165,8 +165,12 @@
         </div>
     </div>
 
-    <div class="works">
+    <div class="works" id="works">
         <h1 data-aos="fade-left" data-aos-duration="600">What have I done?</h1>
+
+        <a href="{{ asset('/documents/Srajbhandari_Resume.pdf') }}" download="SRajbhandari_Resume.pdf">
+            <div class="resumefile" data-aos="fade-left" data-aos-duration="600" title="Download Resume">Resume</div>
+        </a>
 
         <div class="works-container">
             <div class="work-thumbnail" data-aos="fade-left" data-aos-duration="1000">

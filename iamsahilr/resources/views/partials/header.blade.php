@@ -16,10 +16,10 @@
             <a class="nav-link active" aria-current="page" href="#about">About</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#resume">Resume</a>
+            <a class="nav-link active" aria-current="page" href="#skills">Skills</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#work">Works</a>
+            <a class="nav-link active" aria-current="page" href="#works">Works</a>
             </li>
             <li class="nav-item">
             <a class="nav-link active" aria-current="contact" href="#contact">Contact</a>
