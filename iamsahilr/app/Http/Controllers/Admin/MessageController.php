@@ -21,6 +21,7 @@ class MessageController extends Controller
         //validate the user input
         $validatedData= $request->validate([
             'username' => 'required|string|min:1|max:255',
+            'email' => 'required|string|min:1|max:255',
             'message' => 'required|string|min:2|max:400',
         ]);
 

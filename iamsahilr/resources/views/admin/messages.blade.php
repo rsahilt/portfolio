@@ -22,13 +22,14 @@
                 <img class="dp-img-admin" src="/images/dp.png" alt="display picture">
             </div>
             <div class="user">
-                <div class="username">{{ $message->username }}</div>
+                <div class="username">{{ $message->username }}, {{ $message->email }}</div>
                 <div class="userreview">{{ $message->message }}</div>
             </div>
             <form action="{{ route('admin.messages.destroy', $message->id) }}" method="POST" novalidate>
                 @csrf
                 @method('DELETE')
-                <button type="submit" class="btn btn-danger">Delete</button>
+                <button type="submit" class="btn btn-danger"
+                    style="color:white; background-color:red !important;">Delete</button>
             </form>
         </div>
         @endforeach

@@ -217,7 +217,11 @@
                         <input style="border-radius:0" type="text" class="form-control" id="name" name="username" placeholder="Your full name">
                     </div>
 
-                    <div class="form-group" data-aos="fade-left" data-aos-duration="1500">
+                    <div class="form-group" data-aos="fade-left" data-aos-duration="1400">
+                        <input style="border-radius:0" type="email" class="form-control" id="email" name="email" placeholder="Your email address">
+                    </div>
+
+                    <div class="form-group" data-aos="fade-left" data-aos-duration="1800">
                        <textarea  style="border-radius:0" class="form-control" name="message" id="message" cols="70%" rows="5" placeholder="Your message"></textarea>
                     </div>
 

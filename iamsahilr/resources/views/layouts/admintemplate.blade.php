@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;600&family=Russo+One&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
@@ -23,10 +23,10 @@
 
 </head>
 <body>
-    <header class="d-flex flex-wrap justify-content-center py-3 bg-custom-adm-header">
+    <header class="admin-header d-flex flex-wrap justify-content-center py-3 bg-custom-adm-header">
         <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
         <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-        <span class="fs-4">IAMSAHILR.</span>
+        <span class="fs-4 dashboard-title">IAMSAHILR.</span>
         </a>
       
         <!-- search box -->
@@ -59,34 +59,6 @@
                         </a>
                     </li>
 
-                    <!-- <li>
-                        <a href="#" class="nav-link">
-                        <i class="fa fa-calendar"></i> &nbsp;
-                        Calendar
-                        </a>
-                    </li> -->
-
-                    <!-- <li>
-                        <a href="#" class="nav-link">
-                        <i class="fa fa-question-circle"></i> &nbsp;
-                        FAQ
-                        </a>
-                    </li> -->
-
-                    <!-- <li>
-                        <a href="#" class="nav-link">
-                        <i class="fa fa-chart-area"></i> &nbsp;
-                        Analytics
-                        </a>
-                    </li> -->
-
-                    <!-- <li>
-                        <a href="#" class="nav-link">
-                        <i class="fa fa-exclamation-triangle"></i> &nbsp;
-                        Errors
-                        </a>
-                    </li> -->
-
                     <li>
                         <a href="/" class="nav-link">
                         <i class="fa fa-globe"></i> &nbsp;
@@ -104,9 +76,5 @@
         </div>
 
     </section>
-
-    <footer class="adminfooter bg-custom-adm-header">
-        <p>Copyright<sup>&copy;</sup> 2024, Sahil Rajbhandari, Canada</p>
-    </footer>
 </body>
 </html>

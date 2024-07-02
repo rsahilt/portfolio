@@ -689,10 +689,9 @@ footer{
 }
 
 .btn-danger{
-    padding: 0 10px;
-    height: 50%;
-    margin-top: 20px;
+    border: none;
 }
+
 /* --------------------------------------
 ---------------------------------------
 ---------MEDIA QUERIES FOR MOBILE -----
@@ -763,3 +762,20 @@ footer{
     }
 
 }
+
+/* Dashboard Section */
+
+.dashboard-section,
+.admin-header,
+.dashboard-title,
+.adminsection{
+    font-family: "Roboto", sans-serif;
+}
+
+.adminsection{
+    font-size: 0.9em;
+    font-weight: 400;
+    height: 100vh;
+}
+
+
