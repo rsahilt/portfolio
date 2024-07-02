@@ -30,7 +30,8 @@ Route::post('/send-message', [MessageController::class, 'store'])->name('send.me
 Auth::routes();
 
 // Route to user dashboard upon logging in
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])
+    ->name('home');
 
 //Admin Routes
 Route::get('/admin', [AdminController::class, 'index'])
